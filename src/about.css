@@ -1,0 +1,129 @@
+#about,#service,#skills,#edu,#project,#blog,#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.About-content{
+    display: grid;
+    width: 100%;
+    padding: 1rem;
+    grid-template-columns: 300px 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+#about .inner{
+    top: 13px;
+    left: 120px;
+  }
+#about .hr{
+    left:150px;
+    top: 55px;
+}
+figure{
+    color: var(--first_color);
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 300px;
+    flex-direction: column;
+}
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-pic{
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px black;
+}
+
+figure h1,.fig-h1{
+    font-size: 4vmax;
+    font-weight: 500;
+    padding: 15px 0;
+}
+figure p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+.fig2-h1{
+    color: var(--second_color);
+    font-size: 2rem;
+    padding: 10px 0;
+}
+table{
+    font-size: 18px;
+    padding: 20px 0;
+    font-family:'Courier New', Courier, monospace;
+}
+table td{
+    padding: 8px 0;
+    padding-right: 10px;
+}
+
+.cv{
+    position: relative;
+    transition: top 2s;
+    width: 150px;
+    padding: 0.8rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: var(--first_color);
+    text-decoration: none;
+}
+.cv:hover{
+    top: -3px;
+    box-shadow: 0px 2px 4px var(--second_color);
+}
+@media screen and (max-width:500px) {
+    .About-content{
+        grid-template-columns: 98%;
+        justify-content: center;
+        align-items: center;
+    }    
+    table td{
+        padding: 8px 0;
+        padding-right: 0px;
+    }
+    #about .inner{
+        top: 8px;
+        left: 70px;
+      }
+    #about .hr{
+        left:76px;
+        top: 32px;
+    }
+    .about-pic{
+        height: 250px;
+        width: 250px;
+        border-radius:50%;
+        box-shadow: 0px 0px 10px black;
+    }
+    table{
+        padding: 20px 0;
+    }
+    table td{
+        padding: 8px 0;        
+        /* padding-right: 10px; */
+    }
+    table .email {
+        display: flex;
+        flex-direction: column;
+    }
+            
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+    .About-content{
+        grid-template-columns: 80%;
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4100a117.css",
+    "main.js": "/static/js/main.df0fccc1.js",
+    "static/media/book.webp": "/static/media/book.cfec36d1a933aa452ec6.webp",
+    "static/media/kamalihome.jpg": "/static/media/kamalihome.4d3b5146cdf4902de8b6.jpg",
+    "static/media/Kamali frontend resume.pdf": "/static/media/Kamali frontend resume.c7975ee22c9ef795c103.pdf",
+    "static/media/kit.jpg": "/static/media/kit.9d213c382fa95779813b.jpg",
+    "static/media/kamali about.jpg": "/static/media/kamali about.983cd0d80af4b414e50a.jpg",
+    "index.html": "/index.html",
+    "main.4100a117.css.map": "/static/css/main.4100a117.css.map",
+    "main.df0fccc1.js.map": "/static/js/main.df0fccc1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4100a117.css",
+    "static/js/main.df0fccc1.js"
+  ]
+}

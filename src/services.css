@@ -1,0 +1,48 @@
+#service {
+    padding: 1rem;
+}
+#service .heading {
+    padding-bottom: 2rem;
+}
+.service_icon{
+    font-size: 4rem;
+    margin: 20px 0;
+}
+.service_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    flex-wrap: wrap;
+}
+.service_box aside{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0 4px var(--first_color);
+    width: 300px;
+    height: 320px;
+    transition: all 2s;
+}
+.service_box aside:hover{
+    box-shadow: 3px 0 10px var(--first_color);
+}
+.service_box aside:hover .note{
+    color: var(--second_color);
+}
+.service_box aside p{
+    padding-top: 20px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:500px) {
+    #service .inner{
+        top: 8px;
+        left: 70px;
+      }
+    #service .hr{
+        left:70px;
+        top: 32px;
+    }
+}
