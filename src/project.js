@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './project.css';
 import Book from './assets/book.webp';
 import Kit from './assets/kit.jpg';
+import Pet from './assets/pet store.webp';
+import Port from './assets/port.jpg';
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 export default class Project extends Component {
@@ -38,6 +40,30 @@ export default class Project extends Component {
                                 <p>Web Design </p>
                             </aside>
                             <a href=' https://kamali42.github.io/Group-projects/'><FaArrowAltCircleRight title="Project link" className='pro-arr' /></a>
+                        </div>
+                    </div>
+                    <div className='pro-div'>
+                        <div className='pro-img'>
+                            <img src={Pet} alt='Book Master' className='book' />
+                        </div>
+                        <div className='pro-cont'>
+                            <aside>
+                                <h1>Pet Store using Product</h1>
+                                <p>Web Design</p>
+                            </aside>
+                            <a href="#"><FaArrowAltCircleRight title="Project link" className='pro-arr' /></a>
+                        </div>
+                    </div>
+                    <div className='pro-div'>
+                        <div className='pro-img'>
+                            <img src={Port} alt='Book Master' className='book' />
+                        </div>
+                        <div className='pro-cont'>
+                            <aside>
+                                <h1>Portfolio My profile Design</h1>
+                                <p>Web Design</p>
+                            </aside>
+                            <a href="#"><FaArrowAltCircleRight title="Project link" className='pro-arr' /></a>
                         </div>
                     </div>
                 </main>

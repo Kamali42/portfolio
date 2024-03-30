@@ -54,7 +54,7 @@
     background-color: black;
     box-shadow: 0px 0px 4px black;
     color: var(--light-color);
-    font-size: 4.5cqmin;
+    /* font-size: 4.5cqmin; */
     font-weight: bold;
     padding: 1rem 2rem;
     border-bottom: 2px solid white;
@@ -65,7 +65,7 @@
     border-radius: 8px;
     outline: none;
     color: var(--second_color);
-    font-size: 20px;
+    font-size: 16px;
     border: 2px ridge white;
     padding: 0.6rem 2rem;
     background: transparent;
@@ -143,8 +143,11 @@
   .contact-container button:hover {
     opacity: 0.8;
   }
-  .contact-container figcaption figure section div > p {
+  .contact-container figcaption figure section div > h2{
     font-size: 18px;
+  }
+  .contact-container figcaption figure section div > p {
+    font-size: 16px;
   }
   .contact-container figcaption figure section div:hover {
     color: var(--second_color);

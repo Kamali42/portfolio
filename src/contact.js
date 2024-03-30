@@ -5,8 +5,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaGithubSquare,  FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
-export default class Contact extends Component {
-    render() {
+export default function Contact() {
         return (
             <>
             <div id="contact">
@@ -106,4 +105,3 @@ export default class Contact extends Component {
             </>
         )
     }
-}

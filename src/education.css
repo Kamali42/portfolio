@@ -43,10 +43,10 @@
     left: -9px;
     background-color: var(--first_color);
 }
-.edu:hover .circle{
+.education:hover .circle{
     background-color: var(--second_color);
+    border-radius: 50%;
     box-shadow: 0 0 7px var(--second_color),0 0 7px var(--second_color);
-
 }
 .e-cont p{
     padding: 20px 0;
