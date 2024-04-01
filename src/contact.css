@@ -212,7 +212,14 @@
 .contact-container button {
   width: 100%;
 }
- 
+#contact .inner{
+  left: 60px;
+  top: 8px;
+}
+#contact .hr{
+  left:60px;
+  top: 32px;
+}
 }
 
 @media screen and (min-width:500px) and (max-width:1024px){
@@ -229,9 +236,6 @@
     width: 80%;
     padding: 2rem 1rem;
   }
-  /* .contact-container form section {
-    grid-template-columns: 100%;
-  } */
   .contact-container form section {
     grid-template-columns: 46% 50%;
   } 

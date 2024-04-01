@@ -73,7 +73,9 @@ html{
   width: 90px;
   height: 0.3rem;
 }
-
+button:hover{
+  box-shadow: 0 0 10px var(--second_color);
+}
 @media screen and (max-width:500px) {
   .inner{
     font-size: 4vmax;

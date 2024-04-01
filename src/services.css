@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:60px;
+    gap:70px;
     flex-wrap: wrap;
 }
 .service_box aside{
@@ -20,14 +20,13 @@
     cursor: pointer;
     border-radius: 20px;
     box-shadow: 0 0 4px var(--first_color);
-    width: 300px;
+    width: 285px;
     height: 320px;
     transition: all 2s;
 }
 .service_box aside:hover{
     box-shadow: 3px 0 10px var(--first_color);
     transform: scale(1.1);
-    
     background:linear-gradient(to right, black , rgb(0, 0, 196));
 }
 .service_box:hover aside:not(:hover){

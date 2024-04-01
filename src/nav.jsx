@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./nav.css";
 import { FaMicrophone } from "react-icons/fa";
 import { IoMdMenu, IoMdClose} from "react-icons/io";
+import { BiLogoFlutter } from "react-icons/bi";
 export default class Nav extends Component{
     render(){
         setTimeout(()=>{
@@ -17,7 +18,7 @@ export default class Nav extends Component{
             return(
             <header id="Nav" className="nav-container">
                 <main className="tag">
-                    <h1 className="logo">Kamali</h1>
+                    <h1 className="logo"><BiLogoFlutter className="name"/>Kamali</h1>
                 </main>
                 <input type="checkbox" id="menu" />
                 <label for="menu"><IoMdMenu id="menuBar" /><IoMdClose id="closeBar" /></label>

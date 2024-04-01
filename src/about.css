@@ -113,7 +113,6 @@ table td{
     }
     table td{
         padding: 8px 0;        
-        /* padding-right: 10px; */
     }
     table .email {
         display: flex;
