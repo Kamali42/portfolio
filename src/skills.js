@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './skill.css';
 
-export default class Skill extends Component {
-    render() {
+export default function Skill() {
         return (
             <div id='skills'>
                 <main className="heading">
@@ -61,4 +60,3 @@ export default class Skill extends Component {
             </div>
         )
     }
-}

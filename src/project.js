@@ -6,8 +6,7 @@ import Pet from './assets/pet store.webp';
 import Port from './assets/port.jpg';
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
-export default class Project extends Component {
-    render() {
+export default function Project(){
         return (
             <div id='project'>
                 <main className="heading">
@@ -70,4 +69,3 @@ export default class Project extends Component {
             </div>
         )
     }
-}

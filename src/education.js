@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './education.css';
 import { FaGraduationCap } from "react-icons/fa6";
 
-export default class Edu extends Component {
-    render() {
+export default function Edu() {
         return (
             <div id='edu'>
                 <main className="heading">
@@ -70,4 +69,3 @@ export default class Edu extends Component {
             </div>
         )
     }
-}

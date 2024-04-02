@@ -3,8 +3,7 @@ import Profile from './assets/kamali about.jpg';
 import './about.css';
 import cv from './assets/Kamali frontend resume.pdf';
 import { FaCloudDownloadAlt } from "react-icons/fa";
-export default class About extends Component {
-    render() {
+export default function About() {
         return (
             <div id="about">
                 <main className="heading">
@@ -55,4 +54,3 @@ export default class About extends Component {
             </div>
         )
     }
-}

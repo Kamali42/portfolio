@@ -5,8 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { RiFileCodeFill } from "react-icons/ri";
 import './services.css';
 
-export default class Service extends Component {
-    render() {
+export default function Service() {
         return (
             <div id='service'>
                 <main className="heading">
@@ -51,4 +50,3 @@ export default class Service extends Component {
             </div>
         )
     }
-}
