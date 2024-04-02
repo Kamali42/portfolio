@@ -74,14 +74,14 @@ html{
   height: 0.3rem;
 }
 button:hover{
-  box-shadow: 0 0 10px var(--second_color);
+  box-shadow: 0 0 12px var(--second_color);
 }
 @media screen and (max-width:500px) {
   .inner{
-    font-size: 4vmax;
-    top: 13px;
+    font-size: 5vmax;
+    top: 24px;
     color: var(--second_color);
-    left: 130px;
+    left: 140px;
   }
   .hr{
     display: none;
