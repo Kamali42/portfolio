@@ -83,6 +83,9 @@ button:hover{
     color: var(--second_color);
     left: 130px;
   }
+  .hr{
+    display: none;
+  }
   .outer{
     color: rgba(199, 199, 199, 0.2);
     font-size: 8vmax;
